@@ -30,6 +30,35 @@ nav {
   height: 4vh;
 }
 
+.dropdown button {
+  background-color: #e4d9ff;
+  border: none;
+  color: black;
+  font-size: 20px;
+}
+
+button:hover {
+  color: white;
+}
+
+.dropdown a {
+  display: block;
+  padding: 10px 15px;
+}
+
+.dropdown .content {
+  position: absolute;
+  display: none;
+  background-color: #e4d9ff;
+  min-width: 100px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.808);
+}
+
+.dropdown:hover .content {
+  display: block;
+  color: white;
+}
+
 a {
   text-decoration: none;
   color: black;

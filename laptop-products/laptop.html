@@ -14,12 +14,21 @@
     <link rel="stylesheet" href="laptop.css" />
   </head>
   <body>
-    <h1>Corp Technologies</h1>
+    <a href="/Home/index.html"><h1>Corp Technologies</h1></a>
     <header>
       <nav>
-        <a href="#">Products</a>
+        <div class="dropdown">
+          <button>Products</button>
+          <div class="content">
+            <a href="/laptop-products/laptop.html">LapTops</a>
+            <a href="/phone-products/phone.html">Phones</a>
+            <a href="/Tablet-products/tablet.html">Tablets</a>
+            <a href="/Watch-products/watch.html">Watches</a>
+            <a href="/games-products/games.html">Game Systems</a>
+          </div>
+        </div>
 
-        <a href="#">Contact us</a>
+        <a href="/contactUs/contact.html">Contact us</a>
       </nav>
     
       </div>
@@ -281,6 +290,16 @@
       </footer>
   
       <footer class="footer-2"><p>Copyright 2024 CorpTechnologies</p></footer>
-      <script src="script.js"></script>
+      <script src="script.js">
+        const tdEl = document.querySelector('td');
+
+        fetch('./data.json')
+        .then(res => res.json())
+        .then(data => {
+          data.forEach(post => {
+            tdEl.insertAdjacentHTML('beforeend', `<td>${post.title}</td>`);
+          });
+        });
+      </script>
   </body>
 </html>
