@@ -10,7 +10,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="icon" href="Images/CorpTech-logo.png" />
+    <link rel="icon" href="/Images/CorpTech-logo.png">
     <link rel="stylesheet" href="contact.css" />
     <title>eCommerce-Website</title>
   </head>
@@ -18,43 +18,71 @@
     <a href="/Home/index.html"><h1>Corp Technologies</h1></a>
     <header>
       <nav>
-        <div class="dropdown">
-          <button>Products</button>
-          <div class="content">
-            <a href="/laptop-products/laptop.html">LapTops</a>
-            <a href="/phone-products/phone.html">Phones</a>
-            <a href="/Tablet-products/tablet.html">Tablets</a>
-            <a href="/Watch-products/watch.html">Watches</a>
-            <a href="/games-products/games.html">Game Systems</a>
-          </div>
-        </div>
+        <a href="/products/products.html">Products</a>
 
-        <a href="/contactUs/contact.html">Contact us</a>
+        <a style="color: aliceblue" href="/contactUs/contact.html"
+          >Contact us</a
+        >
       </nav>
     </header>
-    <main class="form-container"></main>
-    <footer class="footer-1">
-      <a href="https://www.instagram.com/?hl=en"
-        ><i class="fa-brands fa-instagram"></i
-      ></a>
-      <a href="https://www.facebook.com/"
-        ><i class="fa-brands fa-facebook"></i
-      ></a>
-      <a href="https://twitter.com/?lang=en"
-        ><i class="fa-brands fa-x-twitter"></i
-      ></a>
-      <a href="https://www.tiktok.com/en/"
-        ><i class="fa-brands fa-tiktok"></i
-      ></a>
-      <a href="https://www.linkedin.com/"
-        ><i class="fa-brands fa-linkedin"></i
-      ></a>
-      <a href="https://www.youtube.com/"
-        ><i class="fa-brands fa-youtube"></i
-      ></a>
-    </footer>
+    <main class="contact-container">
+      <section class="thank-you-section">
+        <h2>Thank you</h2>
+        <p>
+          Hello, and thank you for viewing our page! If you'd like to leave a
+          comment or get involved in a partnership, please reach out and let us
+          know!
+        </p>
+      </section>
+      <div class="form-container">
+        <form id="form" action="/contactUs/contact.html">
+            <h2>Contact us!</h2>
+            <div class="input-control">
+            <label for="firstname">Full name</label>
+            <input type="text" name="fullname" id="fullname" />
+            <div class="error"></div>
+          </div>
 
-    <footer class="footer-2"><p>Copyright 2024 CorpTechnologies</p></footer>
-    <script src="script.js"></script>
+          <div class="input-control">
+            <label for="email">Email</label>
+            <input id="email" name="username" type="text" />
+            <div class="error"></div>
+          </div>
+
+          <div class="input-control">
+            <label id="comments" for="email">Leave a comment!</label>
+            <textarea name="Comments" rows="4" cols="90"></textarea>
+          </div>
+
+         
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    </main>
+    <footer>
+      <div class="footer-1">
+        <a href="https://www.instagram.com/?hl=en"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://twitter.com/?lang=en"
+          ><i class="fa-brands fa-x-twitter"></i
+        ></a>
+        <a href="https://www.tiktok.com/en/"
+          ><i class="fa-brands fa-tiktok"></i
+        ></a>
+        <a href="https://www.linkedin.com/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://www.youtube.com/"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+      </div>
+      <div class="footer-2"><p>Copyright 2024 CorpTechnologies</p></div>
+    </footer>
+    <script defer src="contact.js"></script>
   </body>
 </html>

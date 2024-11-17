@@ -9,7 +9,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #6ff7fb;
+  background-color: white;
   font-family: "Muli", sans-serif;
   height: 100vh;
 }
@@ -28,31 +28,6 @@ nav {
   list-style: none;
   background-color: #e4d9ff;
   height: 4vh;
-}
-
-.dropdown button {
-  background-color: #e4d9ff;
-  border: none;
-  color: black;
-  font-size: 20px;
-}
-
-.dropdown a {
-  display: block;
-  padding: 10px 15px;
-}
-
-.dropdown .content {
-  position: absolute;
-  display: none;
-  background-color: #e4d9ff;
-  min-width: 100px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.808);
-}
-
-.dropdown:hover .content {
-  display: block;
-  color: white;
 }
 
 a {
@@ -87,23 +62,41 @@ a:hover {
 }
 
 .gifts {
+  margin: 5px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
-  border: #d3c2ff solid 5px;
+  /* border: #d3c2ff solid 5px; */
   height: 30vh;
+}
+
+.gifts-for-him {
+  display: flex;
+  border: black solid 5px;
+  height: 120px;
+  width: 120px;
 }
 
 .special-items {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  border: #d3c2ff solid 5px;
+  border: white solid 5px;
   height: 30vh;
 }
 
 .cards {
-  background-color: white;
+  background-color: #d3c2ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+img {
+  width: 24.5vw;
+  height: 30vh;
 }
 
 .footer-1 {
