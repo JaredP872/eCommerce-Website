@@ -18,7 +18,7 @@ h1 {
   background-color: #d3c2ff;
   height: 7vh;
   margin: 0;
-  font-size: 54px;
+  font-size: 60px;
 }
 
 nav {
@@ -36,6 +36,10 @@ a {
   font-size: 20px;
 }
 
+nav a {
+  font-size: 30px;
+}
+
 a:hover {
   color: white;
 }
@@ -49,12 +53,12 @@ a:hover {
 .thank-you-section {
   text-align: center;
   width: 70vw;
-  height: 13vh;
+  height: 40vh;
   margin: 5vh;
   padding: 10px;
   background-color: whitesmoke;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 50px;
 }
 
 h2 {
@@ -69,7 +73,7 @@ h2 {
   padding: 20px;
   background-color: whitesmoke;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 40px;
 }
 
 #form h2 {
@@ -80,11 +84,12 @@ h2 {
 #form button {
   padding: 10px;
   margin-top: 10px;
-  width: 100%;
+  width: 99%;
   color: white;
   background-color: rgb(52, 52, 218);
   border: none;
   border-radius: 4px;
+  font-size: 25px;
 }
 
 .input-control {
@@ -130,13 +135,13 @@ h2 {
 }
 
 i {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .footer-2 {
   background-color: #e4d9ff;
   text-align: center;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 /* For screens that are 800px or less */
@@ -161,7 +166,7 @@ i {
     background-color: #d3c2ff;
     height: 7vh;
     margin: 0;
-    font-size: 54px;
+    font-size: 60px;
   }
 
   nav {
@@ -179,6 +184,10 @@ i {
     font-size: 20px;
   }
 
+  nav a {
+    font-size: 30px;
+  }
+
   a:hover {
     color: white;
   }
@@ -192,12 +201,12 @@ i {
   .thank-you-section {
     text-align: center;
     width: 40vw;
-    height: 35vh;
+    height: 65vh;
     margin: 5vh;
     padding: 10px;
     background-color: whitesmoke;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 35px;
   }
 
   h2 {
@@ -207,12 +216,13 @@ i {
 
   #form {
     width: 500px;
+    height: 70vh;
     margin: 20vh auto 0 auto;
     margin-bottom: 30vh;
     padding: 20px;
     background-color: whitesmoke;
     border-radius: 4px;
-    font-size: 18px;
+    font-size: 40px;
   }
 
   #form h2 {
@@ -228,6 +238,7 @@ i {
     background-color: rgb(52, 52, 218);
     border: none;
     border-radius: 4px;
+    font-size: 25px;
   }
 
   .input-control {
@@ -273,12 +284,12 @@ i {
   }
 
   i {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .footer-2 {
     background-color: #e4d9ff;
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
   }
 }

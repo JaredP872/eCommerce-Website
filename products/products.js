@@ -1,4 +1,4 @@
-// Declares a variable name listEl which uses document.queryselector to pupp the iddataDisplay from the html using the dom.
+// Declares a variable name listEl which uses document.queryselector to pull the id dataDisplay from the html using the dom.
 const listEl = document.querySelector("#dataDisplay");
 
 // fetch pulls the information from my json file to my JS file.

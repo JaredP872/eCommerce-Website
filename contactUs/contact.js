@@ -1,9 +1,9 @@
-// Below are the variables that are using document.getElementById to grabe the id's from the html file
+// Below are the variables that are using document.getElementById to grab the id's from the html file
 const form = document.getElementById("form");
 const fullname = document.getElementById("fullname");
 const email = document.getElementById("email");
 
-// Below listens for the click of the submit GamepadButton. Once it hears it, it will activate the arrow function
+// Below listens for the click of the submit Button. Once it hears it, it will activate the arrow function
 form.addEventListener("submit", (e) => {
   // e.preventDefault will prevent the form from submitting if the wrong input is entered.
   e.preventDefault();
